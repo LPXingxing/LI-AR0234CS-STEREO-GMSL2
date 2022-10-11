@@ -10,7 +10,7 @@
 #* FileName & Location:/var/nvcam/settings/camera_overrides.isp
 #* Updated:Thu Nov  5 20:45:44 2020 PST
 #* =============================================================
-ap15Function.lensShading = FALSE;
+ap15Function.lensShading = TRUE;
 ae.MeanAlg.HigherTarget = 120;
 ae.MeanAlg.LowerTarget  = 120;
 ae.MeanAlg.HigherBrightness = 10000;
@@ -464,7 +464,7 @@ falloff_srfc.controlPoint[9][7]     = 0.405043340774;
 falloff_srfc.controlPoint[9][8]     = 0.201966232724;
 falloff_srfc.controlPoint[9][9]     = 0.000000000000;
 lensShading.correction_type.enableWPC     = FALSE;
-lensShading.correction_type.enableLSC     = TRUE;
+lensShading.correction_type.enableLSC     = FALSE;
 lensShading.ctrlPointsCount     = 3;
 lensShading.imageHeight        = 1080;
 lensShading.imageWidth         = 1920;
